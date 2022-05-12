@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-  color: #e82d2d;
+  color: #436cae;
   text-decoration: none;
 }
 
@@ -365,6 +365,9 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+#banner {
+  width: 100%;
+}
 #hero {
   width: 100%;
   height: calc(100vh - 110px);
@@ -521,7 +524,7 @@ section {
   display: block;
   font-size: 28px;
   font-weight: 700;
-  color: #ed5b5b;
+  color: #426bad;
 }
 .why-us .box h4 {
   font-size: 24px;
@@ -631,7 +634,7 @@ section {
   color: #f5c815;
 }
 .services .icon-box:hover .icon::before {
-  background: #e82d2d;
+  background: #436cae;
 }
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
   color: #fff;
@@ -695,7 +698,7 @@ section {
   font-family: "Poppins", sans-serif;
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #e82d2d;
+  color: #436cae;
 }
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
@@ -755,7 +758,7 @@ section {
   transition: 0.3s;
 }
 .portfolio .portfolio-item .portfolio-links a:hover {
-  color: #e82d2d;
+  color: #436cae;
 }
 .portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
@@ -889,7 +892,7 @@ section {
   transition: 0.3s;
 }
 .pricing .box .btn-buy:hover {
-  background: #e82d2d;
+  background: #436cae;
 }
 .pricing .featured {
   background: #f5c815;
@@ -974,7 +977,7 @@ section {
   color: #f5c815;
   border-radius: 50%;
   padding: 8px;
-  border: 2px dotted #f5a0a0;
+  border: 2px dotted #89b4ff75;
 }
 .contact .info-box h3 {
   font-size: 20px;
@@ -1051,7 +1054,7 @@ section {
   transition: 0.4s;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #e82d2d;
+  background: #436cae;
 }
 @-webkit-keyframes animate-loading {
   0% {
@@ -1168,7 +1171,7 @@ section {
 }
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #ed5b5b;
+  color: #436cae;
   font-size: 18px;
   line-height: 1;
 }
@@ -1216,7 +1219,7 @@ section {
   border-radius: 4;
 }
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #e82d2d;
+  background: #436cae;
 }
 #footer .copyright {
   border-top: 1px solid #262626;
@@ -1230,7 +1233,7 @@ section {
   color: #fff;
 }
 #footer .credits a {
-  color: #e82d2d;
+  color: #436cae;
 }
 @media (max-width: 575px) {
   #footer .footer-top .footer-info {
