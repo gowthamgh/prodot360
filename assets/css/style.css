@@ -446,7 +446,7 @@ section {
 
 .section-title {
   text-align: center;
-  padding: 30px 0;
+  padding: 0 0 30px;
   position: relative;
 }
 .section-title h2 {
@@ -458,18 +458,20 @@ section {
   color: #191919;
   position: relative;
   z-index: 2;
+  display: none;
 }
 .section-title span {
-  position: absolute;
-  top: 30px;
-  color: #f4f4f4;
+  /* position: absolute;
+  top: 30px; */
+  color: #ffcc00a6;
   left: 0;
   right: 0;
   z-index: 1;
   font-weight: 700;
-  font-size: 52px;
+  font-size: 42px;
   text-transform: uppercase;
-  line-height: 0;
+  line-height: normal;
+  display: block;
 }
 .section-title p {
   margin-bottom: 0;
@@ -715,7 +717,7 @@ section {
   z-index: 3;
   transition: all ease-in-out 0.3s;
   background: rgba(255, 255, 255, 0.9);
-  padding: 15px;
+  padding: 30px 15px 15px;
 }
 .portfolio .portfolio-item .portfolio-info h4 {
   font-size: 18px;
@@ -732,7 +734,7 @@ section {
   position: absolute;
   right: 40px;
   font-size: 24px;
-  top: calc(50% - 18px);
+  top: 5px;
   color: #333333;
 }
 .portfolio .portfolio-item .portfolio-info .preview-link:hover, .portfolio .portfolio-item .portfolio-info .details-link:hover {
