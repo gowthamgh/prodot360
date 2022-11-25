@@ -1,3 +1,6 @@
+#hero h1 {
+    color: #fff;
+}
 #services {
     background-color: #f5f5f5;
 }
@@ -79,4 +82,17 @@
 }
 .custom-list li {
     margin-bottom: 10px;
+}
+
+#topbar .social-links {
+    display: none !important;
+}
+#header .navbar a:hover, #header .navbar .active, #header .navbar .active:focus, #header .navbar li:hover>a {
+    color: #fff;
+}
+.portfolio .portfolio-item .portfolio-info > a, .footer-newsletter, .footer-info .social-links {
+    display: none;
+}
+.footer-links {
+    margin-left: auto;
 }
