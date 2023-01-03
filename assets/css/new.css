@@ -118,3 +118,7 @@
     color: #18319b !important;
 }
 /*Sub Menu CSS*/
+
+.tools .portfolio-info {
+    display: none;
+}
