@@ -96,3 +96,25 @@
 .footer-links {
     margin-left: auto;
 }
+
+/*Sub Menu CSS*/
+.navbar .sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 10;
+}
+.main-menu > li:hover > .sub-menu {
+    display: block;
+}
+.sub-menu li a {
+    background-color: #18319b;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+.sub-menu li a:hover, .sub-menu li a.active {
+    background-color: #fbd931;
+    color: #18319b !important;
+}
+/*Sub Menu CSS*/
