@@ -80,7 +80,7 @@
                         </li>
                       </ul>
                     </li>
-                    <li><a class="nav-link scrollto" href="tools.html">Tools</a></li>
+                    <li><a class="nav-link scrollto" href="tools.html">Tools & Accessories</a></li>
                     <li><a class="nav-link scrollto" href="index.html#about">About Us</a></li>
                     <li><a class="nav-link scrollto" href="index.html#contact">Contact Us</a></li>
                   </ul>
@@ -232,7 +232,7 @@
                         <ul>
                             <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="index.html#hero">Home</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="index.html#about">About us</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="index.html#services">Services</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="javascript:void(0);">Services</a></li>
                             
                             
                           </ul>
@@ -290,6 +290,27 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(() => {
+            for(let i = 1; i <= 15; i++) {
+                $("#green-valley-slider").children(".swiper-wrapper").append('<div class="swiper-slide"><img src="assets/img/painting/img-'+i+'.jpg" alt="Painting Image"></div>');
+            }
+            new Swiper(".portfolio-details-slider", {
+                speed: 400,
+                loop: true,
+                autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    type: "bullets",
+                    clickable: true,
+                },
+            });
+        });
+    </script>
 
 </body>
 
