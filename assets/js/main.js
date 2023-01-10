@@ -229,7 +229,7 @@
   /**
    * Portfolio details slider
    */
-  new Swiper(".portfolio-details-slider", {
+  new Swiper(".portfolio-details-slider:not(#painting-slider, #water-proofing-slider)", {
     speed: 400,
     loop: true,
     autoplay: {
