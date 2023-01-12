@@ -93,7 +93,7 @@
 #header .navbar a:hover, #header .navbar .active, #header .navbar .active:focus, #header .navbar li:hover>a {
     color: #fff;
 }
-.portfolio .portfolio-item .portfolio-info > a, .footer-newsletter, .footer-info .social-links {
+.portfolio .portfolio-item .portfolio-info > a, .footer-newsletter {
     display: none;
 }
 .footer-links {
