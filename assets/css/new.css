@@ -87,9 +87,6 @@
     margin-bottom: 10px;
 }
 
-#topbar .social-links {
-    display: none !important;
-}
 #header .navbar a:hover, #header .navbar .active, #header .navbar .active:focus, #header .navbar li:hover>a {
     color: #fff;
 }
